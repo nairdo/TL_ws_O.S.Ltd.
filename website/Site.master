@@ -14,7 +14,7 @@
     <div class="page">
 		<!-- Start Header -->
 		<div class="header">
-		  <div class="cont"><a href="default.aspx"><img src="images/logo.png" alt="LOGO" title="LOGO" class="logo" /></a>
+		  <div class="cont"><a href="default.aspx"><img src="images/logo.png" alt="LOGO" title="Olsen-Smith, Ltd." class="logo" /></a>
 			<div class="navbar">
 				<a href="default.aspx">Home</a>
 				<a href="TheFirm.aspx">The Firm</a>
@@ -52,7 +52,7 @@
 			Phoenix, AZ 85004-1267<br />
 			PHONE: (602) 254-1040<br />
 			FAX:   (602) 254-1041<br />
-			E-mail: <a href="mailto:olsen.smith@tax-law.com">olsen.smith@tax-law.com</a><br />
+			<a href="mailto:olsen.smith@tax-law.com">olsen.smith@tax-law.com</a><br />
 			</p>
 		  </li>
 
@@ -65,7 +65,7 @@
 			Paradise Valley, AZ 85253<br />
 			PHONE: (602) 254-1040<br />
 			FAX:   (602) 254-1041<br />
-			E-mail: <a href="mailto:olsen.smith@tax-law.com">olsen.smith@tax-law.com</a><br />
+			<a href="mailto:olsen.smith@tax-law.com">olsen.smith@tax-law.com</a><br />
 			</p>
 			<!--
 			<h3>Social</h3>
