@@ -1,0 +1,91 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+		<!-- Start Header -->
+		<div class="header">
+		  <div class="cont"><a href="default.aspx"><img src="images/logo.png" alt="LOGO" title="LOGO" class="logo" /></a>
+			<div class="navbar">
+				<a href="default.aspx">Home</a>
+				<a href="TheFirm.aspx">The Firm</a>
+				<a href="PracticeAreas.aspx">Practice Areas</a>
+				<a href="AlfredJOlsen.aspx">Alfred J. Olsen</a>
+				<a href="JamesJRossie.aspx"> James J. Rossie, JR.</a>
+				<a href="SusanKSmith.aspx">Susan Kimsey Smith</a>
+				<a href="Contact.aspx">Contact</a></div>
+		  </div>
+		</div>
+		<!-- End Header --> 
+        <div class="main">
+			<asp:ContentPlaceHolder ID="HighlightContent" runat="server">
+				<!-- Start Highlight -->
+				<h1 class="highlight">
+				Certified Specialists in Tax Law <br />
+				with attorneys also Certified in Estate and Trust Law.</h1>
+				<!-- End Highlight --> 
+			</asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+	<!-- Start Footer -->
+	<div class="footer">
+	  <div class="cont">
+		<ul class="col">
+        <li class="col180">
+            <a href="http://bestlawfirms.usnews.com/firmprofile.aspx?firm_id=11093"><img style="background: none; width: 150px; margin-top: 10px;" src="images/badges/usnews-bl-logo_180.png" /></a>
+        </li>
+		<li class="col180">
+			<h3>Phoenix</h3>
+			<p>301 East Virginia Avenue Suite 3300<br />
+			Phoenix, AZ 85004-1267<br />
+			PHONE: (602) 254-1040<br />
+			FAX:   (602) 254-1041<br />
+			E-mail: <a href="mailto:olsen.smith@tax-law.com">olsen.smith@tax-law.com</a><br />
+			</p>
+		  </li>
+
+		  <li class="col180"><img style="background: none; margin-left: -5px;" src="images/webbird_190.png"/>
+		  </li>
+
+		  <li class="col180">
+			<h3>Paradise Valley</h3>
+			<p>6200 North 33rd Street<br />
+			Paradise Valley, AZ 85253<br />
+			PHONE: (602) 254-1040<br />
+			FAX:   (602) 254-1041<br />
+			E-mail: <a href="mailto:olsen.smith@tax-law.com">olsen.smith@tax-law.com</a><br />
+			</p>
+			<!--
+			<h3>Social</h3>
+			<ul class="social">
+			  <li><a href="#"><img src="icons/ico_facebook.png" alt="Facebook" title="Facebook" /></a></li>
+			  <li><a href="#"><img src="icons/ico_twitter.png" alt="Twitter" title="Twitter" /></a></li>
+			  <li><a href="#"><img src="icons/ico_wordpress.png" alt="WordPress" title="WordPress" /></a></li>
+			</ul>
+			-->
+		  </li>
+          <li class="col180">
+          <a href="http://www.bestlawyers.com/firms/olsen-smith-ltd/11093/US"><img style="background: none; margin-top: 45px; width: 170px" src="images/BestLawyersOSL.jpg" /></a>
+          </li>
+		</ul>
+		<div class="clear"></div>
+		<div class="hr_black"></div>
+		<p>2011 &copy; <a href="Default.aspx">Olsen-Smith, Ltd.</a> All Rights Reserved</p>
+	  </div>
+	</div>
+	<!-- End Footer --> 
+    </form>
+</body>
+</html>
